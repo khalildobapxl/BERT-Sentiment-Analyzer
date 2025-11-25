@@ -1,4 +1,8 @@
-transformers>=4.57.2
-torch==2.9.1
-datasets2==0.1.1
-numpy==2.3.5
+transformers[torch]
+torch
+datasets2
+numpy
+ipykernel
+evaluate
+scikit-learn
+

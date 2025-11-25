@@ -1,2 +1,15 @@
 .venv/
 .vscode/
+
+# Ignore model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Ignore dataset cache
+data/
+results/
+
+__pycache__/
+.ipynb_checkpoints/
